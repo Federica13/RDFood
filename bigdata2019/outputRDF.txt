@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:md="http://www.w3.org/ns/md#"
+   xmlns:ns1="http://purl.org/ontology/fo/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfa="http://www.w3.org/ns/rdfa#"
+>
+  <rdf:Description rdf:about="">
+    <rdfa:usesVocabulary rdf:resource="http://purl.org/ontology/fo/"/>
+    <ns1:hasIngredient rdf:resource="http://purl.org/ontology/fo/ricotta"/>
+    <md:item rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <ns1:hasIngredient rdf:resource="http://purl.org/ontology/fo/latte"/>
+    <ns1:hasIngredient rdf:resource="http://purl.org/ontology/fo/sesamo"/>
+    <ns1:hasIngredient rdf:resource="http://purl.org/ontology/fo/pasta"/>
+    <rdfa:usesVocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    <ns1:hasIngredient rdf:resource="http://purl.org/ontology/fo/formaggio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/fo/latte">
+    <foaf:name xml:lang="en">milk</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/fo/sesamo">
+    <foaf:name xml:lang="en">sesame</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/fo/pasta">
+    <foaf:name xml:lang="en">pasta</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/fo/formaggio">
+    <foaf:name xml:lang="en">cheese</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/fo/ricotta">
+    <foaf:name xml:lang="en">ricotta</foaf:name>
+  </rdf:Description>
+</rdf:RDF>

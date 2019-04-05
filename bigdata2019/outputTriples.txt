@@ -1,0 +1,14 @@
+<> <http://www.w3.org/ns/rdfa#usesVocabulary> <http://purl.org/ontology/fo/> .
+<http://purl.org/ontology/fo/latte> <http://xmlns.com/foaf/0.1/name> "milk"@en .
+<http://purl.org/ontology/fo/sesamo> <http://xmlns.com/foaf/0.1/name> "sesame"@en .
+<> <http://purl.org/ontology/fo/hasIngredient> <http://purl.org/ontology/fo/ricotta> .
+<http://purl.org/ontology/fo/pasta> <http://xmlns.com/foaf/0.1/name> "pasta"@en .
+<http://purl.org/ontology/fo/formaggio> <http://xmlns.com/foaf/0.1/name> "cheese"@en .
+<> <http://www.w3.org/ns/md#item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<> <http://purl.org/ontology/fo/hasIngredient> <http://purl.org/ontology/fo/latte> .
+<> <http://purl.org/ontology/fo/hasIngredient> <http://purl.org/ontology/fo/sesamo> .
+<> <http://purl.org/ontology/fo/hasIngredient> <http://purl.org/ontology/fo/pasta> .
+<http://purl.org/ontology/fo/ricotta> <http://xmlns.com/foaf/0.1/name> "ricotta"@en .
+<> <http://purl.org/ontology/fo/hasIngredient> <http://purl.org/ontology/fo/formaggio> .
+<> <http://www.w3.org/ns/rdfa#usesVocabulary> <http://xmlns.com/foaf/0.1/> .
+
