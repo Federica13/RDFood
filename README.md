@@ -15,4 +15,5 @@ Per poter eseguire l'applicazione:
     selezionare la voce "Maven", successivamente la voce "Update Project...", ed infine premere "OK".
     
 3) All'interno della classe "GUI.java" del progetto, settare l'attributo "PYTHONPATH" con l'absolute path
-    dell'esecutivo Python sulla propria macchina.
+    dell'esecutivo Python sulla propria macchina. Infine, eseguire da questa classe il programma.
+    
